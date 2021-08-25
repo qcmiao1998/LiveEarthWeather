@@ -16,6 +16,7 @@ Caution: It may be slow to connect to the Himawari-8's server in China, you can 
 
 ## How to use 如何使用
 
+<!-- ENGLISH -->
 1. Clone this repo or download from [releases](https://github.com/qcmiao1998/LiveEarthWeather/releases).
 2. Load it in Wallpaper Engine.
 3. Setting this wallpaper:
@@ -24,6 +25,7 @@ Caution: It may be slow to connect to the Himawari-8's server in China, you can 
    * `City` The city of weather forecast widget, you can enter the city name or use the latitude and longitude directly. Sometimes the wrong city with the same name may be displayed. In this case, using the latitude and longitude can avoid the problem.
    * `Forecast Update Interval` Similar to `Map Update Interval`, sets the refresh interval of the weather forecast, the default value is 120 min.
 
+<!-- CHINESE -->
 1. 克隆这个库或者从 [releases](https://github.com/qcmiao1998/LiveEarthWeather/releases) 下载.
 2. 把它加载到 Wallpaper Engine.
 3. 设置桌面:
