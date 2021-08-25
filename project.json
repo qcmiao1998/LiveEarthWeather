@@ -1,5 +1,5 @@
 {
-	"file" : "Live_Earth_with_Weather_Forecast.html",
+	"file" : "Live_Earth_and_Weather_Forecast.html",
 	"general" : 
 	{
 		"properties" : 
@@ -75,7 +75,7 @@
 		}
 	},
 	"preview" : "preview.jpg",
-	"title" : "Live_Earth_with_Weather_Forecast",
+	"title" : "Live Earth & Weather Forecast",
 	"type" : "web",
 	"version" : 0
 }
