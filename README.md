@@ -14,6 +14,8 @@ Caution: It may be slow to connect to the Himawari-8's server in China, you can 
 
 ## Demo 预览
 
+![image](https://user-images.githubusercontent.com/14857045/130907536-17eb3930-737e-47ed-8651-f15420c14546.png)
+
 ## How to use 如何使用
 
 <!-- ENGLISH -->
