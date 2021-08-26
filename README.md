@@ -15,7 +15,7 @@ This project use [Himawari-8](https://himawari8.nict.go.jp/)'s real time full di
 ## How to use 如何使用
 
 <!-- ENGLISH -->
-1. Clone this repo or download from [releases](https://github.com/qcmiao1998/LiveEarthWeather/releases).
+1. Subscribe in [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2585292351), or clone this repo, or download from [releases](https://github.com/qcmiao1998/LiveEarthWeather/releases).
 2. Load it in Wallpaper Engine.
 3. Setting this wallpaper:
    * `Earth Size` The size of  the live earth image, set it according to your monitor resolution.
@@ -26,7 +26,7 @@ This project use [Himawari-8](https://himawari8.nict.go.jp/)'s real time full di
 Caution: It may be slow to connect to the Himawari-8's server in China, you can use a CDN server to speed it up. (If the image is not displayed after starting or the image fails to load, it is the network problem.) I have set up a CDN server and wrote it in the code comments, you can switch to it if necessary. (But no guarantees of availability provided, it is better to set up one yourself.)
 
 <!-- CHINESE -->
-1. 克隆这个库或者从 [releases](https://github.com/qcmiao1998/LiveEarthWeather/releases) 下载.
+1. 在 [Steam 创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=2585292351) 订阅, 或者克隆这个库, 或者从 [releases](https://github.com/qcmiao1998/LiveEarthWeather/releases) 下载.
 2. 把它加载到 Wallpaper Engine.
 3. 设置桌面:
    * `Earth Size` 实时地球图像的尺寸, 根据显示器的分辨率情况设置.
