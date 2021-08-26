@@ -29,28 +29,28 @@
 				"options" : 
 				[
 					{
-						"label" : "1",
+						"label" : "550 * 550",
 						"value" : "1"
 					},
 					{
-						"label" : "2",
+						"label" : "1100 * 1100",
 						"value" : "2"
 					},
 					{
-						"label" : "4",
+						"label" : "2200 * 2200",
 						"value" : "4"
 					},
 					{
-						"label" : "8",
+						"label" : "4400 * 4400",
 						"value" : "8"
 					},
 					{
-						"label" : "16",
+						"label" : "8800 * 8800",
 						"value" : "16"
 					}
 				],
 				"order" : 100,
-				"text" : "Map Level",
+				"text" : "Earth Size",
 				"type" : "combo",
 				"value" : "1"
 			},
@@ -61,7 +61,7 @@
 				"max" : 300,
 				"min" : 10,
 				"order" : 101,
-				"text" : "Map Update Interval",
+				"text" : "Earth Update Interval",
 				"type" : "slider",
 				"value" : 20
 			},
@@ -74,7 +74,7 @@
 			}
 		}
 	},
-	"preview" : "preview.jpg",
+	"preview" : "preview.png",
 	"title" : "Live Earth & Weather Forecast",
 	"type" : "web",
 	"version" : 0

@@ -30,7 +30,13 @@
                     forecastInterval = Number(properties.forecastupdateinterval.value);
                     loadForecastTimer();
                 }
-            }
+            },
+            setPaused: function (isPaused) {
+                if (!isPaused) {
+                    loadEarthTimer();
+                    loadForecastTimer();
+                }
+            },
         };
     </script>
     <style>
