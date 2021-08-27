@@ -9,14 +9,18 @@
         let mapInterval = 20; // Update map in minute
         let city = "Shanghai"; // City
         let forecastInterval = 120; // Update forecast in minute
-        const h8Baseuri = "https://himawari8-dl.nict.go.jp/"; // The baseuri for himawari-8
-        // const h8Baseuri = "https://himawari8-dl.nobug.dev/"; // A cdn for himawari-8, do not use it unless necessary.
+        // const h8Baseuri = "https://himawari8-dl.nict.go.jp/"; // The baseuri for himawari-8
+        const h8Baseuri = "https://himawari8-dl.nobug.dev/"; // A cdn for himawari-8, if it downs, switch back to the original node above.
 
         window.wallpaperPropertyListener = {
             applyUserProperties: function (properties) {
                 if (properties.maplevel) {
                     level = Number(properties.maplevel.value);
                     loadEarthTimer();
+                }
+                if (properties.mapscale) {
+                    let scale = Number(properties.mapscale.value);
+                    document.getElementById("live-earth").style.setProperty("--scale", scale);
                 }
                 if (properties.mapupdateinterval) {
                     mapInterval = Number(properties.mapupdateinterval.value);
@@ -59,8 +63,13 @@
 
         .live-earth-grid {
             display: grid;
-            grid-template-columns: repeat(var(--level, 1), 550px);
-            grid-template-rows: repeat(var(--level, 1), 550px);
+            grid-template-columns: repeat(var(--level, 1), calc(var(--scale, 1.0) * 550px));
+            grid-template-rows: repeat(var(--level, 1), calc(var(--scale, 1.0) * 550px));
+        }
+
+        .live-earth-grid>img {
+            width: 100%;
+            height: 100%;
         }
 
         #weather {
